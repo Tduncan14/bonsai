@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.middleNav {
+    display: flex;
+}
+
+.middleNav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.middleNav li {
+    list-style-type: none;
+}
+
+
+/* select area */
+
+select {
+    border: none;
+    outline: none;
+}
+
+
+
+
+/* logo area */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: px;
+}
+
+
+.logo svg {
+    justify-self: center;
+    align-self: center;
+}
