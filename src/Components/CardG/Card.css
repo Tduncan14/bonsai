@@ -1,0 +1,81 @@
+.Card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* very soft black */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: #fff;
+    border-radius: 7px;
+    outline: none;
+    width: 450px;
+    margin-bottom: 4rem;
+}
+
+
+.lists ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.lists li {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    gap: 7px;
+
+}
+
+.lists svg {
+    color: var(--pageColor);
+}
+
+/*h1  */
+
+
+.title {
+    margin-bottom: 1.5rem;
+    font-size: clamp(14px, 22px, 24px);
+}
+
+
+.titleName h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.priceoo {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+}
+
+hr {
+    background-color: var(--pageColor);
+    height: 1.5px;
+    /* optional, to make it visible */
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* the bottom button */
+
+
+.startFree {
+    justify-self: center;
+    background-color: var(--pageColor);
+    color: white;
+    font-weight: 700;
+    border: none;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+
+}

@@ -3,4 +3,23 @@
   --fonts: #4c4d5f;
   --whiteColor: #fff;
   --yellow: #f8db62;
+  --left: 7rem;
+  --right: 7rem;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+
+  padding-right: var(--left);
+  padding-left: var(--right);
+  background: whitesmoke;
+  min-height: 100vh;
+
 }

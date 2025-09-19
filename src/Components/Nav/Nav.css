@@ -1,7 +1,21 @@
+:root {
+    --pageColor: #00b289;
+    --fonts: #4c4d5f;
+    --whiteColor: #fff;
+    --yellow: #f8db62;
+    --left: 7rem;
+    --right: 7rem;
+}
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 7rem;
+
 }
 
 
@@ -13,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    font-size: clamp(16px, 18px, 20px);
 }
 
 .middleNav li {
@@ -24,9 +39,10 @@
 
 select {
     border: none;
+    font-size: clamp(16px, 18px, 20px);
     outline: none;
+    background: inherit;
 }
-
 
 
 
@@ -43,4 +59,51 @@ select {
 .logo svg {
     justify-self: center;
     align-self: center;
+}
+
+
+/* this is the button */
+
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+
+.login {
+    border-color: var(--pageColor);
+    text-align: center;
+    color: var(--pageColor);
+    padding: .3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background: white;
+    font-weight: 900;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0, 178, 137, 0.3);
+    border-radius: 3px;
+}
+
+
+.start {
+    border-color: var(--pageColor);
+    text-align: center;
+    color: white;
+    padding: .3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background: var(--pageColor);
+    font-weight: 900;
+    outline: none;
+    border-radius: 3px;
+
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0, 178, 137, 0.3);
+
+}
+
+button {
+    outline: none;
+    box-shadow: none;
 }

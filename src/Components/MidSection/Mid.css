@@ -1,0 +1,88 @@
+/* MidContent */
+
+.midContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.titleMid {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+
+.monthlyTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.monthlyB {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* the card gallery */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 3rem;
+}
+
+
+
+
+
+/*  lower Card gallery */
+.lowerMid {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lowshOne {
+    align-self: center;
+}
+
+
+.cardOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.cardPara:nth-child(1) {
+    margin-top: 4rem;
+}
+
+.cardPara {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.paraMoney {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.paraMoney h1 {
+    align-self: end;
+    text-align: right;
+}
