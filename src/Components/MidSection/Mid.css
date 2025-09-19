@@ -133,10 +133,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: blue;
     margin-top: 2.5rem;
 }
 
 .ask {
     align-self: center;
+    color: #00b289;
+    font-weight: 300;
+
+}
+
+.policyask {
+    padding-left: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 3rem;
 }
