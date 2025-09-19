@@ -124,6 +124,38 @@ const Mid = () => {
                 </div>
 
 
+                <div className="businessBanner">
+
+                    <div className="businessTeal">
+                        <h1>It's <span className="tealMe">your</span> business</h1>
+                        <h1>We're here to help it grow.</h1>
+                    </div>
+
+
+                    <button> START FREE</button>
+
+
+                </div>
+
+
+                <div className="questionsAsk">
+                    <h1 className="ask">Frequently Asked Questions</h1>
+
+
+                    <div className="policyask">
+                        <p>How does the 14 day free trial work?</p>
+                        <p>Can I change plans anytime?</p>
+                        <p>How do i pause my Bonsai subscription?</p>
+                        <p>What is your refund policy?</p>
+                    </div>
+
+
+
+
+
+                </div>
+
+
 
 
 
