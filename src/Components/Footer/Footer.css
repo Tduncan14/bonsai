@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 8rem;
+
+
+}
+
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer h2 {
+    margin-bottom: 2rem;
+}
