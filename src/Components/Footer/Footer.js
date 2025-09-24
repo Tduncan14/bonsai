@@ -36,7 +36,7 @@ const Footer = () => {
 
                 <ul className="secondLeftl">
                     <li>Pricing</li>
-                    <li>Contracts</li>
+                    <li>Bonsai Reviews</li>
                 </ul>
 
 
@@ -52,22 +52,27 @@ const Footer = () => {
                     <li>Freelance Resources</li>
                     <li>Freelance Blog By Bonsai</li>
                     <li>How to Write a Contract</li>
+                    <li>Online Signature</li>
                     <li></li>
-                    <li>Sef-Employed Taxes Hub</li>
                     <li>Self-Employed Tax Calculator</li>
                     <li>Self-Employed Tax Deductions</li>
+                    <li>Sef-Employed Taxes Hub</li>
 
                 </ul>
 
 
+                <h2 className='templateBreak'>Templates</h2>
+
+
                 <ul className="middleListO">
-                    <li>Freelance Resources</li>
-                    <li>Freelance Blog By Bonsai</li>
-                    <li>How to Write a Contract</li>
-                    <li></li>
-                    <li>Sef-Employed Taxes Hub</li>
-                    <li>Self-Employed Tax Calculator</li>
-                    <li>Self-Employed Tax Deductions</li>
+                    <li>Invoice Templates <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
+                    <li>Proposal Templates <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
+                    <li>Contract Templates <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
+                    <li>Agreement Templates <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
+                    <li>Scope of Work Templates <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
+                    <li>Quote Templates <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
+                    <li>Credit Note Templates</li>
+                    <li> Estimate Templates</li>
 
                 </ul>
 
@@ -91,7 +96,7 @@ const Footer = () => {
                 <ul className="middleListOne">
                     <li>Affilates</li>
                     <li>Write for Us</li>
-                    <li>Comparisons</li>
+                    <li>Comparisons <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M5 12l5 5l10 -10" /></svg></li>
                 </ul>
 
             </div>

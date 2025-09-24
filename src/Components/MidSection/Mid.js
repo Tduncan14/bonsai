@@ -21,7 +21,7 @@ const Mid = () => {
         <div className="midContent">
 
             <div className="titleMid">
-                <h1> Plans & Pricing</h1>
+                <h1 className="plansMe"> Plans & Pricing</h1>
 
 
 
@@ -32,8 +32,12 @@ const Mid = () => {
                     <div className="monthlyB">
                         <h2>MONTHLY</h2>
 
-                        <div className="">
-                            <button>pvsoso</button>
+                        <div className="toggleButton">
+                            <label className="switch">
+                                <input type="checkbox" />
+
+                                <span class="slider round"></span>
+                            </label>
                         </div>
 
 
@@ -83,9 +87,9 @@ const Mid = () => {
 
                         <div className="cardPara">
                             <div>
-                                <h2>Collaborators </h2>
+                                <h2>Partners </h2>
 
-                                <p>Invite other users to specific projects for limited access and functionality</p>
+                                <p>Invite other users to full account access and company management</p>
 
                             </div>
 
@@ -103,10 +107,15 @@ const Mid = () => {
 
                         <div className="cardPara">
                             <div>
-                                <h2>Collaborators </h2>
+                                <h2>Bonsai Tax </h2>
 
-                                <p>Invite other users to specific projects for limited access and functionality</p>
+                                <p>Track expenses, identify write-offs, and estimate quarterly taxes easily</p>
 
+
+                                <div className="learnMore">
+                                    <h5>LEARN MORE  </h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 6l6 6l-6 6" /></svg>
+                                </div>
                             </div>
 
                             <div className="paraMoney">

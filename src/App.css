@@ -23,3 +23,23 @@
   min-height: 100vh;
 
 }
+
+
+
+/* small tablets  */
+
+
+@media(max-width:767px) {
+
+
+  .App {
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: whitesmoke;
+    min-height: 100vh;
+
+  }
+
+
+}

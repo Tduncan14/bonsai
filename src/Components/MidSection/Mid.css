@@ -19,12 +19,36 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 15px;
 }
 
+
+.monthlyTitle h3 {
+    justify-self: flex-end;
+    color: #00b289;
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.learnMore {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    color: #00b289;
+}
+
+
+.monthlyB h2 {
+    font-size: 18px;
+}
 
 .monthlyB {
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 
@@ -151,4 +175,340 @@
     font-weight: 400;
     font-size: 1.4rem;
     margin-top: 3rem;
+}
+
+
+/* this is for the toggleButton */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00b289;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+}
+
+
+
+
+input:checked+.slider:before {
+    --webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .midContent {
+
+        width: 100%;
+    }
+
+
+    .midContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .titleMid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+
+    .plansMe {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+
+    .monthlyTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+
+    .monthlyTitle h3 {
+        justify-self: center;
+        color: #00b289;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .learnMore {
+        display: flex;
+        align-items: center;
+        margin-top: .5rem;
+        color: #00b289;
+    }
+
+
+    .monthlyB h2 {
+        font-size: 18px;
+    }
+
+    .monthlyB {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    /* the card gallery */
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 3rem;
+    }
+
+
+
+
+
+    /*  lower Card gallery */
+    .lowerMid {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .lowshOne {
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+
+    .cardOne {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .cardPara:nth-child(1) {
+        margin-top: 4rem;
+    }
+
+    .cardPara {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        background: #fff;
+        border-radius: 8px;
+        align-content: center;
+    }
+
+    .paraMoney {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .paraMoney h1 {
+        align-self: end;
+        text-align: right;
+    }
+
+
+    .businessBanner {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f2FAFF;
+        margin-top: 5.5rem;
+        text-align: center;
+        padding: 4rem;
+        align-content: center;
+        border-radius: 9px;
+
+    }
+
+    .businessBanner span {
+        color: #00b289;
+
+    }
+
+    .businessBanner h1 {
+        color: grey;
+    }
+
+    .businessBanner button {
+        background: #00b289;
+        border: none;
+        outline: none;
+        display: flex;
+        height: 40px;
+        align-self: center;
+        padding: 1.5rem;
+        text-align: center;
+        align-items: center;
+        border-radius: 7px;
+        font-weight: 600;
+        color: white;
+        justify-content: center;
+        margin-top: 2rem;
+
+    }
+
+
+    .questionsAsk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+
+    .ask {
+        align-self: center;
+        text-align: center;
+        color: #00b289;
+        font-weight: 300;
+
+    }
+
+    .policyask {
+
+        padding-left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-top: 3rem;
+    }
+
+
+    /* this is for the toggleButton */
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00b289;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+    }
+
+
+
+
+    input:checked+.slider:before {
+        --webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+}
+
+/* Tablet (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .midContent {
+        background: orange;
+    }
+
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+    .midContent {
+        background: green;
+    }
+
 }

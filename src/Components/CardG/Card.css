@@ -79,3 +79,23 @@ hr {
     margin-bottom: 1.5rem;
 
 }
+
+
+@media(max-width:768px) {
+    .Card {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        /* very soft black */
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        background: #fff;
+        border-radius: 7px;
+        outline: none;
+        width: 450px;
+        margin-bottom: 4rem;
+        max-width: 100%;
+    }
+
+}

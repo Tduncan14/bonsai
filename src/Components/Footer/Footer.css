@@ -16,6 +16,52 @@
     gap: 20px;
 }
 
+
+
+
 .footer h2 {
     margin-bottom: 2rem;
+}
+
+
+/*  */
+
+
+.templateBreak {
+    margin-top: 1.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: .1rem;
+}
+
+
+/* middleList */
+
+.middleListO li {
+    display: flex;
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        text-align: center;
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+        padding-bottom: 8rem;
+
+
+    }
+
+
 }
