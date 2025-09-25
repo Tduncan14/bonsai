@@ -35,7 +35,7 @@ const Footer = () => {
 
 
                 <ul className="secondLeftl">
-                    <li>Pricing</li>
+                    <li className="price">Pricing</li>
                     <li>Bonsai Reviews</li>
                 </ul>
 

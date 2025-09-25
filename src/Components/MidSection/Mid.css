@@ -327,6 +327,7 @@ input:checked+.slider:before {
     .lowshOne {
         text-align: center;
         text-wrap: wrap;
+
     }
 
 
@@ -498,17 +499,7 @@ input:checked+.slider:before {
 }
 
 /* Tablet (768px to 1023px) */
-@media (min-width: 768px) and (max-width: 1023px) {
-    .midContent {
-        background: orange;
-    }
-
-}
+@media (min-width: 768px) and (max-width: 1023px) {}
 
 /* Desktop (1024px and up) */
-@media (min-width: 1024px) {
-    .midContent {
-        background: green;
-    }
-
-}
+@media (min-width: 1024px) {}

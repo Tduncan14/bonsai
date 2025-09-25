@@ -67,9 +67,16 @@
         align-items: center;
     }
 
+
+    .price {
+        color: #00b289;
+        margin-top: 1.4rem;
+    }
+
+
     .footer h2 {
         margin-top: 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
 

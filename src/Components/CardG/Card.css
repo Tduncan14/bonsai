@@ -94,6 +94,7 @@ hr {
         border-radius: 7px;
         outline: none;
         width: 450px;
+        align-self: center;
         margin-bottom: 4rem;
         max-width: 100%;
     }
